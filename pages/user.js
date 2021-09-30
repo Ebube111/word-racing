@@ -1,6 +1,9 @@
 import { MongoClient } from "mongodb";
 import moment from "moment";
 
+{
+  /** A PAGE TO DISPLAY SCORES OF USERS FROM THE HIGHEST DOWNWARDS */
+}
 function User({ wordRacing }) {
   return (
     <div className="root">

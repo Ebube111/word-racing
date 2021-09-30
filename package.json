@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "moment": "^2.29.1",
+    "mongodb": "^4.1.2",
     "next": "11.1.2",
+    "random-words": "^1.1.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "use-sound": "^4.0.1"
   },
   "devDependencies": {
     "eslint": "7.32.0",

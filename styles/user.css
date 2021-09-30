@@ -1,0 +1,65 @@
+.root {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: white;
+  width: 60%;
+  border-radius: 1rem;
+  height: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.container h1 {
+  color: #fb9902;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-scores {
+  padding: 2rem;
+  display: flex;
+  border: 1px solid gray;
+  margin: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wpm {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: olivedrab;
+}
+
+.success {
+  background-color: greenyellow;
+}
+.failed {
+  background-color: red;
+}
+
+.center-correct {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center1 {
+  background-color: green;
+  font-size: 2rem;
+  padding: 1.5rem;
+  margin: 2rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.center2 {
+  background-color: red;
+  font-size: 2rem;
+  padding: 1.5rem;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
